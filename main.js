@@ -16,4 +16,7 @@ var imdb1 = new imdb_1.Imdb([movie1, movie2, movie3]);
 // professional3.consolePrint();
 // professional4.consolePrint();
 // movie1.consolePrintMovie()
-console.log(imdb1);
+// console.log(imdb1)
+var fs = require('fs');
+var string = JSON.stringify(imdb1);
+fs.writeFileSync("imdbBBDD.json", string);
