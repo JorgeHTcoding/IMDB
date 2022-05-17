@@ -1,1 +1,1 @@
-Miniproyecto Modulo 1 por Andrés y Jorge.
+Miniproyecto Modulo 1 por Jorge.

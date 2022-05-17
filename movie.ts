@@ -1,8 +1,10 @@
+import { Professional } from "./professional";
+
 export class Movie{
 
     public title:string;
     public releaseYear:number;
-    public actors:string[];
+    public actors:Professional[];
     public nacionality:string;
     public director:string;
     public writer:string;
@@ -29,11 +31,12 @@ export class Movie{
         this.mainCharacterName = null;
         this.producer = null;
         this.distributor = null;
-        this.genre = genre = null;                       
+        this.genre = genre;                   
 
 
     }
    public setActors():void{
+       
 
    }
     
