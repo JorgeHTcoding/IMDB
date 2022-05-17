@@ -15,7 +15,7 @@ var Movie = /** @class */ (function () {
         this.mainCharacterName = null;
         this.producer = null;
         this.distributor = null;
-        this.genre = genre = null;
+        this.genre = genre;
     }
     Movie.prototype.setActors = function () {
     };
